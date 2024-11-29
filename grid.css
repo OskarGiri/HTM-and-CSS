@@ -1,0 +1,20 @@
+.grid-container{
+    display: grid;
+    /* align-content: space-around; */
+    height: 400px;
+    /* justify-content: space-around; */
+    grid-template-columns:auto auto auto auto; 
+    grid: 10px;
+    background-color: rgb(13, 12, 13);
+    padding: 10px;
+}
+.nayan{
+background-color: rgb(242, 255, 0);
+border:1px,solid;
+/* padding: 10px; */
+/* margin:2px;     */
+}
+.ram{
+    background-color: aqua;
+    
+}
