@@ -1,14 +1,61 @@
-
 .logo{
-    width:1 px;
-    height: 100px;
+    width: 30px;
 }
-.navi{
-    text-align: center;
-    left: 50%;
-    position: "absolute";
 
-} 
 body{
-    background-color: aquamarine;
+    background-color: rgb(89, 195, 79);
+}
+
+.cont{
+ display: grid;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+
+
+}
+l_i{
+    padding: 30px;
+    display: inline;   
+}
+.lets{
+    font-size: 50px;
+    text-align: left;
+
+}
+.With{
+ font-style: italic;
+ font-size: 100px;
+
+}
+.van{
+    float: right; 
+    max-width: 100%;
+    height: auto; 
+}
+p{
+    font-size: 45px;
+}
+.search{
+    width: 100%;
+    padding:20px;
+}
+.search input{
+
+    background-image:url(search.ico);
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    background-size: 45px;
+}
+.button{
+    width: 250px;
+    padding: left;
+    background-image: url(download\ .png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px;
+    font-size: large;
+    font-style: italic;
+    color: rgb(64, 20, 160);
+    
 }

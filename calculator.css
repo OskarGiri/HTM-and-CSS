@@ -1,54 +1,29 @@
-.main calculator{
+/* .main calculator{
+    display: flex;
     
 }
-
+ */
 
 .calculator{
     background-color: rgb(190, 160, 160);
-    display: grid;
+    border:2px solid  black;
+    /* display: grid; */
     grid-template-columns: auto auto auto auto ;
     padding: 100px;
 }
 .display{
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     border-radius: 10px;
-    width: 40px;
-    padding: 20px;
+    display: grid;
+    width: 300px;
+    padding: 0px;
+    margin-bottom: 10px;
     
 }
-.a{
-    padding: 1px;
-    background-color: white;
-    border: 1px solid
-}
-.b{
-    padding: 1px;
-    font: 1.2px;
-    background-color: white;
-}
-.c{
-    padding: 1px;
-    background-color: white;
-    border: 1px solid
-}
-.c{
-    padding: 1px;
-    background-color: white;
-    border: 1px solid}
-    .c{
-        padding: 1px;
-        background-color: white;
-        border: 1px solid}
-        .c{
-            padding: 1px;
-            background-color: white;
-            border: 1px solid}
-            .c{
-                padding: 1px;
-                background-color: white;
-                border: 1px solid}
-                .c{
-                    padding: 1px;
-                    background-color: white;
-                    border: 1px solid}
 
+.buttons{
+
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+}

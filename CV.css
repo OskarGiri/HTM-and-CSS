@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    margin: 0%;
+}
+.left-panel{
+    width: 30%;
+    background-color: rgb(59, 97, 167);
+    padding: 20px;
+    color: white;
+    box-sizing: border-box;
+}
+
+
+.right-panel{
+    background-color: aqua;
+    padding: 20px;
+    width: 70%;
+    box-sizing: border-box;
+}
+.project{
+    margin-top: 0;
+}
